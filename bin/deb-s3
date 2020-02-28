@@ -7,4 +7,3 @@ require 'rubygems'
 require 'deb/s3/cli'
 
 Deb::S3::CLI.start
-
