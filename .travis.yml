@@ -3,5 +3,6 @@ rvm:
   - 2.5
   - 2.6
   - 2.7
+
 before_install:
-  - gem update bundler
+  - bundle update --bundler
