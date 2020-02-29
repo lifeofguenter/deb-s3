@@ -904,7 +904,7 @@ GEM
       aws-eventstream (~> 1.0, >= 1.0.2)
     jmespath (1.4.0)
     minitest (5.14.0)
-    rake (11.3.0)
+    rake (13.0.1)
     thor (0.19.4)
 
 PLATFORMS
@@ -913,7 +913,7 @@ PLATFORMS
 DEPENDENCIES
   deb-s3-patched!
   minitest (~> 5)
-  rake (~> 11)
+  rake (~> 13)
 
 BUNDLED WITH
    1.17.3
