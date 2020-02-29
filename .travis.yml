@@ -4,5 +4,6 @@ rvm:
   - 2.6
   - 2.7
 
-before_install:
-  - bundle update --bundler
+script:
+  - make build
+  - make test
