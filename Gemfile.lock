@@ -293,7 +293,7 @@ GEM
     aws-sdk-glacier (1.26.0)
       aws-sdk-core (~> 3, >= 3.71.0)
       aws-sigv4 (~> 1.1)
-    aws-sdk-globalaccelerator (1.14.0)
+    aws-sdk-globalaccelerator (1.13.0)
       aws-sdk-core (~> 3, >= 3.71.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-glue (1.48.0)
