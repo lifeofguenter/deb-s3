@@ -1,6 +1,6 @@
 # deb-s3
 
-[![Build Status](https://travis-ci.org/krobertson/deb-s3.svg?branch=master)](https://travis-ci.org/krobertson/deb-s3)
+[![Build Status](https://travis-ci.com/lifeofguenter/deb-s3.svg?branch=master)](https://travis-ci.com/lifeofguenter/deb-s3)
 
 **This repository is no longer maintained.** I am no longer actively maintaining
 deb-s3. I haven't been using it to maintain any repositories since

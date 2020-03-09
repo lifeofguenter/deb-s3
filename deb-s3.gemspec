@@ -15,10 +15,10 @@ Gem::Specification.new do |gem|
 
   gem.files = Dir["**/*"].select { |d| d =~ %r{^(README|bin/|ext/|lib/)} }
 
-  gem.required_ruby_version = '>= 2.5.7'
+  gem.required_ruby_version = '>= 2.5.5'
 
   gem.add_dependency "thor",    "~> 0.19.0"
   gem.add_dependency "aws-sdk", "~> 3"
   gem.add_development_dependency "minitest", "~> 5"
-  gem.add_development_dependency "rake", "~> 11"
+  gem.add_development_dependency "rake", "~> 13"
 end
