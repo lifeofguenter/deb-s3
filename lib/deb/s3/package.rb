@@ -4,7 +4,7 @@ require "digest/sha2"
 require "digest/md5"
 require "socket"
 require "tmpdir"
-require "uri"
+require "cgi"
 
 require 'deb/s3/utils'
 
@@ -242,7 +242,7 @@ class Deb::S3::Package
 
     # Packages manifest fields
     filename = fields.delete('Filename')
-    self.url_filename = filename && URI.unescape(filename)
+    self.url_filename = filename && CGI.unescape(filename)
     self.sha1 = fields.delete('SHA1')
     self.sha256 = fields.delete('SHA256')
     self.md5 = fields.delete('MD5sum')
